@@ -55,14 +55,14 @@ function createKey (key, values) {
     someKey.append(createInnerKey(values.capsLockEn, 'capsLockEn'));
     someKey.append(createInnerKey(values.capsLockRu, 'capsLockRu'));
     return someKey;
-};
+}
 
 function createInnerKey(key, classK) {
     const keyboardKey = document.createElement('div');
     keyboardKey.classList = `keyboardKey-${classK}`;
     keyboardKey.innerHTML = key;
     return keyboardKey;
-};
+}
 
 Object.keys(keys).forEach((key) => {
     const kbKey = createKey(key, keys[key]);
@@ -85,7 +85,7 @@ function keydownH(el) {
     el.preventDefault();
     checkKey(keyCode);
     showCurrent();
-};
+}
 
 function keyupH(el) {
     const key = document.querySelector(`.keyboardKey-${el.code}`);
@@ -97,7 +97,7 @@ function keyupH(el) {
         showCurrent();
     }
     pressedKeys.delete(el.code);
-};
+}
 
 function keyboardH(el) {
     const eventTarget = el.target;
@@ -105,7 +105,7 @@ function keyboardH(el) {
     if (!key) return;
     const keyCode = key.classList[1].split('-')[1];
     checkKey(keyCode);
-};
+}
 
 document.addEventListener('keydown', keydownH);
 document.addEventListener('keyup', keyupH);
@@ -119,7 +119,7 @@ function showCurrent() {
     const currentValue = document.querySelectorAll(`.keyboardKey-${currentProperty}`);
     values.forEach((key) => key.classList.add('hidden'));
     currentValue.forEach((keyValue) => keyValue.classList.remove('hidden'));
-};
+}
 
 function setCurrent () {
     if (lang.isEng && ((!isShift && !isCapsLock) || (isShift && isCapsLock))) {
@@ -136,7 +136,7 @@ function setCurrent () {
       currentProperty = 'capsLockRu';
     }
     console.log(lang.isEng);
-};
+}
 
 //printing into textarea
 
@@ -146,7 +146,7 @@ function setValue (value) {
     textarea.value = textarea.value.slice(0, indexOfCursor) + value + textarea.value.slice(indexOfCursor);
     textarea.selectionStart = indexOfCursor + 1;
     textarea.selectionEnd = indexOfCursor + 1;
-};
+}
 
 function deleteValue (key) {
     const textarea = document.querySelector('.textarea');
@@ -155,7 +155,7 @@ function deleteValue (key) {
     textarea.value = textarea.value.slice(0, indexOfValue) + textarea.value.slice(indexOfValue + 1);
     textarea.selectionStart = indexOfValue;
     textarea.selectionEnd = indexOfValue;
-};
+}
 
 function checkKey(key) {
     const keySet = document.querySelector(`.keyboardKey-${key}`);
@@ -181,5 +181,5 @@ function checkKey(key) {
     } else {
         const keyValue = keys[key][currentProperty];
         setValue(keyValue);
-    };
-};
+    }
+}
