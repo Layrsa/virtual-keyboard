@@ -15,7 +15,7 @@ function create(tag, style, inner) {
 
 let header = create('div', 'header', '');
 let title = create('div', 'title', 'Virtual Keyboard')
-let description = create('div', 'description', 'Window OC')
+let description = create('div', 'description', 'For Window OS; Alt+Shift for change lang.')
 let textArea = create('textarea', 'textarea', '');
 let keyboardWrap = create('div', 'keyboard', '');
 let wrapper = create('div', 'wrapper', '');
