@@ -6,7 +6,7 @@
     margin: 30px auto;
     max-width: 800px;
     height: 100%;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -47,18 +47,20 @@
     height: 50%;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3%;
-    row-gap: 0.3%;
+    gap: 3px;
+    margin: 40px 0;
 }
 
 .keyboardKey{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     background-color: bisque;
+    margin: 3px 0;
+    border-radius: 5px;
 }
 
 .keyboardKey:hover {
@@ -67,15 +69,21 @@
 
 .keyboardKey:active {
     background-color: #04c396;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.keyboardKey-AltLeft {
-    width: 60px;
+.keyboardKey-ShiftLeft,
+.keyboardKey-ShiftRight,
+.keyboardKey-Enter,
+.keyboardKey-Backspase,
+.keyboardKey-CapsLock,
+.keyboardKey-ControlLeft,
+.keyboardKey-Backspace {
+    width: 103px;
 }
 
-.keyboardKey-ShiftLeft {
-    width: 60px;
+.keyboardKey-Space {
+    width: 315px;
 }
 
 .hidden{
@@ -84,5 +92,5 @@
 
 .active{
     background-color: #04c396;
-    border-radius: 10px;
+    border-radius: 20px;
 }
