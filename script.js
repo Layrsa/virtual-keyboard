@@ -2,7 +2,7 @@ import keys from './keys.js';
 
 let body = document.body;
 
-let isEng = true;
+let isCapsLock = false;
 let isShift = true;
 let currentProperty = null;
 
@@ -23,6 +23,25 @@ let wrapper = create('div', 'wrapper', '');
 body.append(wrapper);
 wrapper.append(header, textArea, keyboardWrap);
 header.append(title, description);
+
+//Change lang
+
+const lang = {
+    isEng: true,
+    setLangToLocalStorage() {
+      localStorage.setItem('isEng', this.isEng);
+    },
+    getLangFromLocalStorage() {
+      this.isEng = (localStorage.getItem('isEng')) ? localStorage.getItem('isEng') === 'true' : true;
+    },
+};
+
+const checkChangeLang = (pressedKeys) => {
+    if (pressedKeys.has('ShiftLeft') && pressedKeys.has('AltLeft')) {
+      lang.isEng = !lang.isEng;
+      showCurrent();
+    }
+};
 
 //keys created
 
@@ -63,8 +82,9 @@ function keydownH(el) {
     key.classList.add('active');
     pressedKeys.add(keyCode);
     showCurrent();
-    console.log(keyCode);
+    console.log(lang.isEng);
     el.preventDefault();
+    checkChangeLang(pressedKeys);
 };
 
 function keyupH(el) {
@@ -95,14 +115,20 @@ function showCurrent() {
     currentValue.forEach((keyValue) => keyValue.classList.remove('hidden'));
 };
 
-function setCurrent() {
-    if (isEng) {
+function setCurrent () {
+    if (lang.isEnLang && ((!isShift && !isCapsLock) || (isShift && isCapsLock))) {
       currentProperty = 'en';
-    } else if (!lang.isEng) {
+    } else if (!lang.isEng && ((!isShift && !isCapsLock) || (isShift && isCapsLock))) {
       currentProperty = 'ru';
-    } else if (isEng && isShift) {
+    } else if (lang.isEng && isShift) {
       currentProperty = 'shiftEn';
-    } else if (!isEng && isShift) {
+    } else if (!lang.isEng && isShift) {
       currentProperty = 'shiftRu';
+    } else if ((lang.isEng && isCapsLock)) {
+      currentProperty = 'capsLockEn';
+    } else {
+      currentProperty = 'capsLockRu';
     }
 };
+
+//before all
