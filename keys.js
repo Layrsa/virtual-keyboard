@@ -5,8 +5,8 @@ const keys = {
       ru: '`',
       shiftEn: '~',
       shiftRu: 'Ё',
-      capsEn: '`',
-      capsRu: 'Ё',
+      capsLockEn: '`',
+      capsLockRu: 'Ё',
     },
     
     Digit1: {
@@ -14,8 +14,8 @@ const keys = {
       ru: '1',
       shiftEn: '!',
       shiftRu: '!',
-      capsEn: '1',
-      capsRu: '1',
+      capsLockEn: '1',
+      capsLockRu: '1',
     },
 
     Digit2: {
@@ -23,8 +23,8 @@ const keys = {
       ru: '2',
       shiftEn: '@',
       shiftRu: '"',
-      capsEn: '2',
-      capsRu: '2',
+      capsLockEn: '2',
+      capsLockRu: '2',
     },
 
     Digit3: {
@@ -32,8 +32,8 @@ const keys = {
       ru: '3',
       shiftEn: '#',
       shiftRu: '№',
-      capsEn: '3',
-      capsRu: '3',
+      capsLockEn: '3',
+      capsLockRu: '3',
     },
 
     Digit4: {
@@ -41,8 +41,8 @@ const keys = {
       ru: '4',
       shiftEn: '$',
       shiftRu: ';',
-      capsEn: '4',
-      capsRu: '4',
+      capsLockEn: '4',
+      capsLockRu: '4',
     },
 
     Digit5: {
@@ -50,8 +50,8 @@ const keys = {
       ru: '5',
       shiftEn: '%',
       shiftRu: '%',
-      capsEn: '5',
-      capsRu: '5',
+      capsLockEn: '5',
+      capsLockRu: '5',
     },
 
     Digit6: {
@@ -59,8 +59,8 @@ const keys = {
       ru: '6',
       shiftEn: '^',
       shiftRu: ':',
-      capsEn: '6',
-      capsRu: '6',
+      capsLockEn: '6',
+      capsLockRu: '6',
     },
 
     Digit7: {
@@ -68,8 +68,8 @@ const keys = {
       ru: '7',
       shiftEn: '&',
       shiftRu: '?',
-      capsEn: '7',
-      capsRu: '7',
+      capsLockEn: '7',
+      capsLockRu: '7',
     },
 
     Digit8: {
@@ -77,8 +77,8 @@ const keys = {
       ru: '8',
       shiftEn: '*',
       shiftRu: '*',
-      capsEn: '8',
-      capsRu: '8',
+      capsLockEn: '8',
+      capsLockRu: '8',
     },
 
     Digit9: {
@@ -86,8 +86,8 @@ const keys = {
       ru: '9',
       shiftEn: '(',
       shiftRu: '(',
-      capsEn: '9',
-      capsRu: '9',
+      capsLockEn: '9',
+      capsLockRu: '9',
     },
 
     Digit0: {
@@ -95,8 +95,8 @@ const keys = {
       ru: '0',
       shiftEn: ')',
       shiftRu: ')',
-      capsEn: '0',
-      capsRu: '0',
+      capsLockEn: '0',
+      capsLockRu: '0',
     },
 
     Minus: {
@@ -104,8 +104,8 @@ const keys = {
       ru: '-',
       shiftEn: '_',
       shiftRu: '_',
-      capsEn: '-',
-      capsRu: '-',
+      capsLockEn: '-',
+      capsLockRu: '-',
     },
     
     Equal: {
@@ -113,8 +113,8 @@ const keys = {
       ru: '=',
       shiftEn: '+',
       shiftRu: '+',
-      capsEn: '+',
-      capsRu: '+',
+      capsLockEn: '+',
+      capsLockRu: '+',
     },
 
     Backspace: {
@@ -122,8 +122,8 @@ const keys = {
       ru: 'Backspace',
       shiftEn: 'Backspace',
       shiftRu: 'Backspace',
-      capsEn: 'Backspace',
-      capsRu: 'Backspace',
+      capsLockEn: 'Backspace',
+      capsLockRu: 'Backspace',
     },
 
     Tab: {
@@ -131,8 +131,8 @@ const keys = {
       ru: 'Tab',
       shiftEn: 'Tab',
       shiftRu: 'Tab',
-      capsEn: 'Tab',
-      capsRu: 'Tab',
+      capsLockEn: 'Tab',
+      capsLockRu: 'Tab',
     },
 
     KeyQ: {
@@ -140,8 +140,8 @@ const keys = {
       ru: 'й',
       shiftEn: 'Q',
       shiftRu: 'Й',
-      capsEn: 'Q',
-      capsRu: 'Й',
+      capsLockEn: 'Q',
+      capsLockRu: 'Й',
     },
 
     KeyW: {
@@ -149,8 +149,8 @@ const keys = {
       ru: 'ц',
       shiftEn: 'W',
       shiftRu: 'Ц',
-      capsEn: 'W',
-      capsRu: 'Ц',
+      capsLockEn: 'W',
+      capsLockRu: 'Ц',
     },
 
     KeyE: {
@@ -158,8 +158,8 @@ const keys = {
       ru: 'у',
       shiftEn: 'E',
       shiftRu: 'У',
-      capsEn: 'E',
-      capsRu: 'У',
+      capsLockEn: 'E',
+      capsLockRu: 'У',
     },
 
     KeyR: {
@@ -167,8 +167,8 @@ const keys = {
       ru: 'к',
       shiftEn: 'R',
       shiftRu: 'К',
-      capsEn: 'R',
-      capsRu: 'К',
+      capsLockEn: 'R',
+      capsLockRu: 'К',
     },
 
     KeyT: {
@@ -176,8 +176,8 @@ const keys = {
       ru: 'е',
       shiftEn: 'T',
       shiftRu: 'Е',
-      capsEn: 'T',
-      capsRu: 'Е',
+      capsLockEn: 'T',
+      capsLockRu: 'Е',
     },
 
     KeyY: {
@@ -185,8 +185,8 @@ const keys = {
       ru: 'н',
       shiftEn: 'Y',
       shiftRu: 'Н',
-      capsEn: 'Y',
-      capsRu: 'Н',
+      capsLockEn: 'Y',
+      capsLockRu: 'Н',
     },
 
     KeyU: {
@@ -194,8 +194,8 @@ const keys = {
       ru: 'г',
       shiftEn: 'U',
       shiftRu: 'Г',
-      capsEn: 'U',
-      capsRu: 'Г',
+      capsLockEn: 'U',
+      capsLockRu: 'Г',
     },
 
     KeyI: {
@@ -203,8 +203,8 @@ const keys = {
       ru: 'ш',
       shiftEn: 'I',
       shiftRu: 'Ш',
-      capsEn: 'I',
-      capsRu: 'Ш',
+      capsLockEn: 'I',
+      capsLockRu: 'Ш',
     },
 
     KeyO: {
@@ -212,8 +212,8 @@ const keys = {
       ru: 'щ',
       shiftEn: 'O',
       shiftRu: 'Щ',
-      capsEn: 'O',
-      capsRu: 'Щ',
+      capsLockEn: 'O',
+      capsLockRu: 'Щ',
     },
 
     KeyP: {
@@ -221,8 +221,8 @@ const keys = {
       ru: 'з',
       shiftEn: 'P',
       shiftRu: 'З',
-      capsEn: 'P',
-      capsRu: 'З',
+      capsLockEn: 'P',
+      capsLockRu: 'З',
     },
 
     BracketLeft: {
@@ -230,8 +230,8 @@ const keys = {
       ru: 'х',
       shiftEn: '{',
       shiftRu: 'Х',
-      capsEn: '[',
-      capsRu: 'Х',
+      capsLockEn: '[',
+      capsLockRu: 'Х',
     },
 
     BracketRight: {
@@ -239,8 +239,8 @@ const keys = {
       ru: 'ъ',
       shiftEn: '}',
       shiftRu: 'Ъ',
-      capsEn: ']',
-      capsRu: 'Ъ',
+      capsLockEn: ']',
+      capsLockRu: 'Ъ',
     },
 
     Backslash: {
@@ -248,8 +248,8 @@ const keys = {
       ru: '\\',
       shiftEn: '|',
       shiftRu: '/',
-      capsEn: '\\',
-      capsRu: '\\',
+      capsLockEn: '\\',
+      capsLockRu: '\\',
     },
 
     Delete: {
@@ -257,8 +257,8 @@ const keys = {
       ru: 'Del',
       shiftEn: 'Del',
       shiftRu: 'Del',
-      capsEn: 'Del',
-      capsRu: 'Del',
+      capsLockEn: 'Del',
+      capsLockRu: 'Del',
     },
 
     CapsLock: {
@@ -266,8 +266,8 @@ const keys = {
       ru: 'CapsLock',
       shiftEn: 'CapsLock',
       shiftRu: 'CapsLock',
-      capsEn: 'CapsLock',
-      capsRu: 'CapsLock',
+      capsLockEn: 'CapsLock',
+      capsLockRu: 'CapsLock',
     },
 
     KeyA: {
@@ -275,8 +275,8 @@ const keys = {
       ru: 'ф',
       shiftEn: 'A',
       shiftRu: 'Ф',
-      capsEn: 'A',
-      capsRu: 'Ф',
+      capsLockEn: 'A',
+      capsLockRu: 'Ф',
     },
 
     KeyS: {
@@ -284,8 +284,8 @@ const keys = {
       ru: 'ы',
       shiftEn: 'S',
       shiftRu: 'Ы',
-      capsEn: 'S',
-      capsRu: 'Ы',
+      capsLockEn: 'S',
+      capsLockRu: 'Ы',
     },
 
     KeyD: {
@@ -293,8 +293,8 @@ const keys = {
       ru: 'в',
       shiftEn: 'D',
       shiftRu: 'В',
-      capsEn: 'D',
-      capsRu: 'В',
+      capsLockEn: 'D',
+      capsLockRu: 'В',
     },
 
     KeyF: {
@@ -302,8 +302,8 @@ const keys = {
       ru: 'а',
       shiftEn: 'F',
       shiftRu: 'А',
-      capsEn: 'F',
-      capsRu: 'А',
+      capsLockEn: 'F',
+      capsLockRu: 'А',
     },
 
     KeyG: {
@@ -311,8 +311,8 @@ const keys = {
       ru: 'п',
       shiftEn: 'G',
       shiftRu: 'П',
-      capsEn: 'G',
-      capsRu: 'П',
+      capsLockEn: 'G',
+      capsLockRu: 'П',
     },
 
     KeyH: {
@@ -320,8 +320,8 @@ const keys = {
       ru: 'р',
       shiftEn: 'H',
       shiftRu: 'Р',
-      capsEn: 'H',
-      capsRu: 'Р',
+      capsLockEn: 'H',
+      capsLockRu: 'Р',
     },
 
     KeyJ: {
@@ -329,8 +329,8 @@ const keys = {
       ru: 'о',
       shiftEn: 'J',
       shiftRu: 'О',
-      capsEn: 'J',
-      capsRu: 'О',
+      capsLockEn: 'J',
+      capsLockRu: 'О',
     },
 
     KeyK: {
@@ -338,8 +338,8 @@ const keys = {
       ru: 'л',
       shiftEn: 'K',
       shiftRu: 'Л',
-      capsEn: 'K',
-      capsRu: 'Л',
+      capsLockEn: 'K',
+      capsLockRu: 'Л',
     },
 
     KeyL: {
@@ -347,8 +347,8 @@ const keys = {
       ru: 'д',
       shiftEn: 'L',
       shiftRu: 'Д',
-      capsEn: 'L',
-      capsRu: 'Д',
+      capsLockEn: 'L',
+      capsLockRu: 'Д',
     },
 
     Semicolon: {
@@ -356,8 +356,8 @@ const keys = {
       ru: 'ж',
       shiftEn: ':',
       shiftRu: 'Ж',
-      capsEn: ';',
-      capsRu: 'Ж',
+      capsLockEn: ';',
+      capsLockRu: 'Ж',
     },
 
     Quote: {
@@ -365,8 +365,8 @@ const keys = {
       ru: 'э',
       shiftEn: '"',
       shiftRu: 'Э',
-      capsEn: '\'',
-      capsRu: 'Э',
+      capsLockEn: '\'',
+      capsLockRu: 'Э',
     },
 
     Enter: {
@@ -374,8 +374,8 @@ const keys = {
       ru: 'Enter',
       shiftEn: 'Enter',
       shiftRu: 'Enter',
-      capsEn: 'Enter',
-      capsRu: 'Enter',
+      capsLockEn: 'Enter',
+      capsLockRu: 'Enter',
     },
 
     ShiftLeft: {
@@ -383,8 +383,8 @@ const keys = {
       ru: 'Shift',
       shiftEn: 'Shift',
       shiftRu: 'Shift',
-      capsEn: 'Shift',
-      capsRu: 'Shift',
+      capsLockEn: 'Shift',
+      capsLockRu: 'Shift',
     },
 
     KeyZ: {
@@ -392,8 +392,8 @@ const keys = {
       ru: 'я',
       shiftEn: 'Z',
       shiftRu: 'Я',
-      capsEn: 'Z',
-      capsRu: 'Ч',
+      capsLockEn: 'Z',
+      capsLockRu: 'Ч',
     },
 
     KeyX: {
@@ -401,8 +401,8 @@ const keys = {
       ru: 'ч',
       shiftEn: 'X',
       shiftRu: 'Ч',
-      capsEn: 'X',
-      capsRu: 'Ч',
+      capsLockEn: 'X',
+      capsLockRu: 'Ч',
     },
 
     KeyC: {
@@ -410,8 +410,8 @@ const keys = {
       ru: 'с',
       shiftEn: 'C',
       shiftRu: 'С',
-      capsEn: 'C',
-      capsRu: 'С',
+      capsLockEn: 'C',
+      capsLockRu: 'С',
     },
 
     KeyV: {
@@ -419,8 +419,8 @@ const keys = {
       ru: 'м',
       shiftEn: 'V',
       shiftRu: 'М',
-      capsEn: 'V',
-      capsRu: 'М',
+      capsLockEn: 'V',
+      capsLockRu: 'М',
     },
 
     KeyB: {
@@ -428,8 +428,8 @@ const keys = {
       ru: 'и',
       shiftEn: 'B',
       shiftRu: 'И',
-      capsEn: 'B',
-      capsRu: 'И',
+      capsLockEn: 'B',
+      capsLockRu: 'И',
     },
 
     KeyN: {
@@ -437,8 +437,8 @@ const keys = {
       ru: 'т',
       shiftEn: 'N',
       shiftRu: 'Т',
-      capsEn: 'N',
-      capsRu: 'Т',
+      capsLockEn: 'N',
+      capsLockRu: 'Т',
     },
 
     KeyM: {
@@ -446,8 +446,8 @@ const keys = {
       ru: 'ь',
       shiftEn: 'M',
       shiftRu: 'Ь',
-      capsEn: 'M',
-      capsRu: 'Ь',
+      capsLockEn: 'M',
+      capsLockRu: 'Ь',
     },
 
     Comma: {
@@ -455,8 +455,8 @@ const keys = {
       ru: 'б',
       shiftEn: '<',
       shiftRu: 'Б',
-      capsEn: ',',
-      capsRu: 'Б',
+      capsLockEn: ',',
+      capsLockRu: 'Б',
     },
 
     Period: {
@@ -464,8 +464,8 @@ const keys = {
       ru: 'ю',
       shiftEn: '>',
       shiftRu: 'Ю',
-      capsEn: '.',
-      capsRu: 'Ю',
+      capsLockEn: '.',
+      capsLockRu: 'Ю',
     },
 
     Slash: {
@@ -473,8 +473,8 @@ const keys = {
       ru: '.',
       shiftEn: '?',
       shiftRu: ',',
-      capsEn: '/',
-      capsRu: '.',
+      capsLockEn: '/',
+      capsLockRu: '.',
     },
 
     ArrowUp: {
@@ -482,8 +482,8 @@ const keys = {
       ru: '▲',
       shiftEn: '▲',
       shiftRu: '▲',
-      capsEn: '▲',
-      capsRu: '▲',
+      capsLockEn: '▲',
+      capsLockRu: '▲',
     },
 
     ShiftRight: {
@@ -491,8 +491,8 @@ const keys = {
       ru: 'Shift',
       shiftEn: 'Shift',
       shiftRu: 'Shift',
-      capsEn: 'Shift',
-      capsRu: 'Shift',
+      capsLockEn: 'Shift',
+      capsLockRu: 'Shift',
     },
 
     ControlLeft: {
@@ -500,8 +500,8 @@ const keys = {
       ru: 'Ctrl',
       shiftEn: 'Ctrl',
       shiftRu: 'Ctrl', 
-      capsEn: 'Ctrl', 
-      capsRu: 'Ctrl',
+      capsLockEn: 'Ctrl', 
+      capsLockRu: 'Ctrl',
     },
 
     MetaLeft: {
@@ -509,8 +509,8 @@ const keys = {
       ru: 'Win',
       shiftEn: 'Win',
       shiftRu: 'Win',
-      capsEn: 'Win',
-      capsRu: 'Win',
+      capsLockEn: 'Win',
+      capsLockRu: 'Win',
     },
 
     AltLeft: {
@@ -518,8 +518,8 @@ const keys = {
       ru: 'Alt',
       shiftEn: 'Alt',
       shiftRu: 'Alt',
-      capsEn: 'Alt',
-      capsRu: 'Alt',
+      capsLockEn: 'Alt',
+      capsLockRu: 'Alt',
     },
 
     Space: {
@@ -527,8 +527,8 @@ const keys = {
       ru: ' ',
       shiftEn: ' ',
       shiftRu: ' ',
-      capsEn: ' ',
-      capsRu: ' ',
+      capsLockEn: ' ',
+      capsLockRu: ' ',
     },
 
     AltRight: {
@@ -536,8 +536,8 @@ const keys = {
       ru: 'Alt',
       shiftEn: 'Alt',
       shiftRu: 'Alt',
-      capsEn: 'Alt',
-      capsRu: 'Alt',
+      capsLockEn: 'Alt',
+      capsLockRu: 'Alt',
     },
 
     ArrowLeft: {
@@ -545,8 +545,8 @@ const keys = {
       ru: '◄',
       shiftEn: '◄',
       shiftRu: '◄',
-      capsEn: '◄',
-      capsRu: '◄',
+      capsLockEn: '◄',
+      capsLockRu: '◄',
     },
 
     ArrowDown: {
@@ -554,8 +554,8 @@ const keys = {
       ru: '▼',
       shiftEn: '▼',
       shiftRu: '▼',
-      capsEn: '▼',
-      capsRu: '▼',
+      capsLockEn: '▼',
+      capsLockRu: '▼',
     },
 
     ArrowRight: {
@@ -563,8 +563,8 @@ const keys = {
       ru: '►',
       shiftEn: '►',
       shiftRu: '►',
-      capsEn: '►',
-      capsRu: '►',
+      capsLockEn: '►',
+      capsLockRu: '►',
     },
 
     ControlRight: {
@@ -572,8 +572,8 @@ const keys = {
       ru: 'Ctrl',
       shiftEn: 'Ctrl',
       shiftRu: 'Ctrl',
-      capsEn: 'Ctrl',
-      capsRu: 'Ctrl',
+      capsLockEn: 'Ctrl',
+      capsLockRu: 'Ctrl',
     },
 
   };
