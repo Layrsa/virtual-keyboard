@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.wrapper{
+    margin: 30px auto;
+    max-width: 900px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 201, 216);
+    padding: 0 50px;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    font-size: calc(1vw * 2);
+    font-weight: bolder;
+}
+
+.description{
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    font-size: calc(1vw * 2);
+}
+
+.textarea{
+    width: 100%;
+    height: 100px;
+    border: solid;
+    padding: 1% 3%;
+    border-color: blueviolet;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.keyboard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 40px 0;
+}
+
+.keyboardKey{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: bisque;
+    margin: 3px 0;
+    border-radius: 5px;
+    border: solid;
+}
+
+.keyboardKey:hover {
+    background-color: #77cbd4;
+}
+
+.keyboardKey:active {
+    background-color: #77c0af;
+    border-radius: 20px;
+    animation: shake 0.5s;
+}
+
+.keyboardKey-ShiftLeft,
+.keyboardKey-ShiftRight,
+.keyboardKey-Enter,
+.keyboardKey-Backspase,
+.keyboardKey-CapsLock,
+.keyboardKey-ControlLeft,
+.keyboardKey-Backspace {
+    width: 103px;
+    background-color: rgb(243, 212, 175);
+}
+
+.keyboardKey-Space {
+    width: 315px;
+    background-color: rgb(243, 212, 175);
+}
+
+.keyboardKey-AltLeft,
+.keyboardKey-Tab,
+.keyboardKey-AltRight,
+.keyboardKey-ControlRight,
+.keyboardKey-ArrowDown,
+.keyboardKey-ArrowUp,
+.keyboardKey-ArrowLeft,
+.keyboardKey-ArrowRight,
+.keyboardKey-ArrowDown,
+.keyboardKey-MetaLeft,
+.keyboardKey-Del {
+    background-color: rgb(243, 212, 175);
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    background-color: #77c0af;
+    border-radius: 20px;
+    animation: shake 0.5s;
+}
