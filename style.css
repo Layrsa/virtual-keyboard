@@ -50,3 +50,39 @@
     gap: 0.3%;
     row-gap: 0.3%;
 }
+
+.keyboardKey{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.keyboardKey:hover {
+    background-color: #3cccdc;
+}
+
+.keyboardKey:active {
+    background-color: #04c396;
+    border-radius: 10px;
+}
+
+.keyboardKey-AltLeft {
+    width: 60px;
+}
+
+.keyboardKey-ShiftLeft {
+    width: 60px;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    background-color: #04c396;
+    border-radius: 10px;
+}
