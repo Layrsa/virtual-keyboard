@@ -118,8 +118,8 @@
 .keyboardKey-ArrowRight,
 .keyboardKey-ArrowDown,
 .keyboardKey-MetaLeft,
-.keyboardKey-Del {
-    background-color: rgb(243, 212, 175);
+.keyboardKey-Delete {
+    background-color: rgb(235, 205, 169);
 }
 
 .hidden{
